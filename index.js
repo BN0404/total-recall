@@ -385,97 +385,95 @@
 // V. Objects
 // A.
 
-// const user = {
-//   name4: "Bhagwati",
-//   email: "in_ghu@gmail.com",
-//   age: 6,
-//   purchased: [],
-// };
+const user = {
+  name4: "Bhagwati",
+  email: "in_ghu@gmail.com",
+  age: 6,
+  purchased: [],
+};
 
-// // B.
-// console.log(user);
-// user.email = "insiVinci@zoo.com";
-// console.log(user);
+// B.
+console.log(user);
+user.email = "insiVinci@zoo.com";
+console.log(user);
 
-// user.age++;
-// console.log(user);
-// // C.
+user.age++;
+console.log(user);
+// C.
 
-// user.location = ["pittsburgh", "PA"];
-// console.log(user);
+user.location = ["pittsburgh", "PA"];
+console.log(user);
 
-// // D.
-// user.purchased.push("carbohydrates");
-// console.log(user);
-// // E.
+// D.
+user.purchased.push("carbohydrates");
+console.log(user);
+// E.
 
-// user.purchased.push("peace of mind");
+user.purchased.push("peace of mind");
 
-// // F.
-// user.purchased.push("Merino jodhpurs");
+// F.
+user.purchased.push("Merino jodhpurs");
 
-// console.log(`${user.purchased[2]}`);
+console.log(`${user.purchased[2]}`);
 
-// // G.
-// user.friend = {
-//     name4: "AAVIS",
-//     age: 10,
-//     location: "NY",
-//     purchased:[]
-// }
-// console.log(`${user.friend.name4}`);
-// console.log(`${user.friend.location}`);
-// user.friend.age = 55;
-// user.friend.purchased.push("The One Ring");
-// user.friend.purchased.push("A latte");
+// G.
+user.friend = {
+    name4: "AAVIS",
+    age: 10,
+    location: "NY",
+    purchased:[]
+}
+console.log(`${user.friend.name4}`);
+console.log(`${user.friend.location}`);
+user.friend.age = 55;
+user.friend.purchased.push("The One Ring");
+user.friend.purchased.push("A latte");
 
-// console.log(`${user.friend.purchased[1]}`)
+console.log(`${user.friend.purchased[1]}`)
 
-// //F 1.
-// // string = "";
+//F 1.
+// string = "";
 
-// string=" "
+string=" "
 
-// for (i = 0; i <= 2; i++) {
-//     string = string + ", " + user.purchased[i];
+for (i = 0; i <= 2; i++) {
+    string = string + ", " + user.purchased[i];
     
-// }
+}
 
-// console.log(`${string}`);
+console.log(`${string}`);
 
 
-// // F 2.
+// F 2.
 
-// string=" "
+string=" "
 
-// for (i = 0; i <= 1; i++) {
-//     string = string + ", " + user.friend.purchased[i];
+for (i = 0; i <= 1; i++) {
+    string = string + ", " + user.friend.purchased[i];
     
-// }
+}
 
-// console.log(`${string}`);
+console.log(`${string}`);
 
 
 // G 1.
 
 
-// function updateUser() {
-//     user.age = user.age+1;
-//     user.name4 = user.name4.toUpperCase();
+function updateUser() {
+    user.age = user.age+1;
+    user.name4 = user.name4.toUpperCase();
 
-// }
+}
 
-// const x = updateUser(user.age, user.name4);
+const x = updateUser(user.age, user.name4);
 
-// console.log(`${user.age}  ${user.name4}`)
+console.log(`${user.age}  ${user.name4}`)
 
 // G 2.
 
-// function oldAndLoud(person) {
-//     function updateUser() {
-        
-//     } 
-// }
-
-// const y = oldAndLoud(user)
-// console.log(`${user.age}  ${user.name4}`);
+function oldAndLoud(person) {
+    person.age++;
+    person.name = person.name.toUpperCase();
+    } 
+const y = oldAndLoud(user);
+console.log(`${person.age}`);
