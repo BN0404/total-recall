@@ -9,66 +9,66 @@
 // */
 
 
-// // I. Variables & Data Types
-// // A. Q + A
+// I. Variables & Data Types
+// A. Q + A
 
 // 1; // console.log("%c   How do we assign a value to a variable?   ", "color: blue");
-// // We assign a value to a variable using var, let and const. The best way to assign the value to a variable is by let and const. As shown in the below example.
+// We assign a value to a variable using var, let and const. The best way to assign the value to a variable is by let and const. As shown in the below example.
 
-// // var value = "Total Recall";
-// // let value1 = "Total Recall1";
-// // const value2 = "Total Recall2";
-// // console.log(value);
+// var value = "Total Recall";
+// let value1 = "Total Recall1";
+// const value2 = "Total Recall2";
+// console.log(value);
 
-// // 2. console.log("%c   How do we change the value of a variable?   ", "color: blue");
-// // First define the value to the variable and then we can change it by using the same name and giving a different value but it can't be done for a const. As shown below:
+// 2. console.log("%c   How do we change the value of a variable?   ", "color: blue");
+// First define the value to the variable and then we can change it by using the same name and giving a different value but it can't be done for a const. As shown below:
 
-// // let new_value = "Stated JS";
-// // new_value = "Learning JS is Fun";
-// // console.log(new_value);
+// let new_value = "Stated JS";
+// new_value = "Learning JS is Fun";
+// console.log(new_value);
 
-// // 3. console.log("%c   How do we assign an existing variable to a new variable?   ", "color: blue");
-// // We assign an exciting variable to a new variable just by defining a new variable using let, var or const and giving a different name. As shown in the below example:
-// // var existingVar1 = "Exciting";
-// // var existingVar2 = existingVar1
-// // console.log(existingVar);
+// 3. console.log("%c   How do we assign an existing variable to a new variable?   ", "color: blue");
+// We assign an exciting variable to a new variable just by defining a new variable using let, var or const and giving a different name. As shown in the below example:
+// var existingVar1 = "Exciting";
+// var existingVar2 = existingVar1
+// console.log(existingVar);
 
-// // 4. console.log("%c   Remind me, what are declare, assign, and define?   ", "color: blue");
-// // We declare in three ways like var, const and let.
-// // Assign means is to give a value to the declared variable.
-// // define means define() function can be used to load the modules. Module means object, function, class or a code.
+// 4. console.log("%c   Remind me, what are declare, assign, and define?   ", "color: blue");
+// We declare in three ways like var, const and let.
+// Assign means is to give a value to the declared variable.
+// define means define() function can be used to load the modules. Module means object, function, class or a code.
 
-// // 5. console.log("%c   What is pseudocoding and why should you do it?   ", "color: blue");
-// // Pseudocoding is means informal way of writing programs (algorithm) without using any code, just in simple language and breaking it down into smaller chunks. It helps in understanding the code by anyone like BA, Manager, Client. It also makes it easier to understand and bugging.
+// 5. console.log("%c   What is pseudocoding and why should you do it?   ", "color: blue");
+// Pseudocoding is means informal way of writing programs (algorithm) without using any code, just in simple language and breaking it down into smaller chunks. It helps in understanding the code by anyone like BA, Manager, Client. It also makes it easier to understand and bugging.
 
-// // 6. console.log("%c      "What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?, "color: blue");
-// // I think it is important to spent more time in understanding the problem and then spent required time is coding. As understanding is more important before starting anything.
+// 6. console.log("%c      "What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?, "color: blue");
+// I think it is important to spent more time in understanding the problem and then spent required time is coding. As understanding is more important before starting anything.
 
-// // B. Strings
-// // console.log("%c   String   ", "color: blue");
-// // var firstVariable = "Hello World";
-// // var firstVariable = 4;
-// // var secondVariable = firstVariable;
-// // var secondVariable = ["A", 4];
-// // console.log(`${firstVariable}`);// It's the latest assign value that is 4 in this case.
+// B. Strings
+// console.log("%c   String   ", "color: blue");
+// var firstVariable = "Hello World";
+// var firstVariable = 4;
+// var secondVariable = firstVariable;
+// var secondVariable = ["A", 4];
+// console.log(`${firstVariable}`);// It's the latest assign value that is 4 in this case.
 
-// // let yourName = ["in_bn"];
-// // console.log("Hello, my name is " + yourName);
+// let yourName = ["in_bn"];
+// console.log("Hello, my name is " + yourName);
 
-// // C. Booleans
-// // console.log("%c   Booleans   ", "color: blue");
-// //   const a = 4;
-// //   const b = 53;
-// //   const c = 57;
-// //   const d = 16;
-// //   const e = 'Kevin';
+// C. Booleans
+// console.log("%c   Booleans   ", "color: blue");
+//   const a = 4;
+//   const b = 53;
+//   const c = 57;
+//   const d = 16;
+//   const e = 'Kevin';
 
-// //   console.log(a < b);
-// //   console.log(c > d);
-// //   console.log(e === 'Kevin');
-// //   // FOR THE NEXT TWO, USE ONLY && OR ||
-// //   console.log(true != false);
-// //   console.log(false != false != false != false != false != true);
+//   console.log(a < b);
+//   console.log(c > d);
+//   console.log(e === 'Kevin');
+//   // FOR THE NEXT TWO, USE ONLY && OR ||
+//   console.log(true != false);
+//   console.log(false != false != false != false != false != true);
 // //   console.log(false == false)
 // //   console.log(e == 'Kevin');
 // //   console.log(a != b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)

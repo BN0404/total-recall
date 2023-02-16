@@ -2,10 +2,11 @@
 // Easy Going
 // console.log("%c   Easy Going   ", "color:blue");
 
-// let a = 1;
-// for (let i = 0; i < 20; i++){
-//     console.log(`${a}`)
-//     a = a+1;
+
+// for (
+//     let i = 1; i <=20; i++){
+//     console.log(i)
+    
 // }
 
 
@@ -134,28 +135,28 @@
 
 
 
-let cat = 1;
-let randomNum =0;
+// let cat = 1;
+// let randomNum =0;
 
-const kittyTalk= ["human...why you taking pictures of me?", "the catnip made me do it", "why does the red dot always get away..." ]
-for (i = 0; i <= 19; i++) {
+// const kittyTalk= ["human...why you taking pictures of me?", "the catnip made me do it", "why does the red dot always get away..." ]
+// for (i = 0; i <= 19; i++) {
 
-    randomNum = Math.ceil(Math.random() * 2);
-    cat = cat + 1;
-    console.log(`Love me, pet me! HSSSSSS!`);
-     if (cat % 2 == 0) {
-        console.log(`${kittyTalk[randomNum]}`);
-    }
-}
+//     randomNum = Math.ceil(Math.random() * 2);
+//     cat = cat + 1;
+//     console.log(`Love me, pet me! HSSSSSS!`);
+//      if (cat % 2 == 0) {
+//         console.log(`${kittyTalk[randomNum]}`);
+//     }
+// }
 
 
-////////////////////////////////
- console.log("%c   Find the Median    ", "color:blue")
-////////////////////////////////
-const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
-let sort = nums.sort();
-let a = Math.floor(nums.length / 2);
+// ////////////////////////////////
+//  console.log("%c   Find the Median    ", "color:blue")
+// ////////////////////////////////
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+// let sort = nums.sort();
+// let a = Math.floor(nums.length / 2);
 
-console.log(`Median of nums is : ${nums[12]}`);
+// console.log(`Median of nums is : ${nums[12]}`);
 
 
