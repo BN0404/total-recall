@@ -36,7 +36,7 @@
 // 4. console.log("%c   Remind me, what are declare, assign, and define?   ", "color: blue");
 // We declare in three ways like var, const and let.
 // Assign means is to give a value to the declared variable.
-// define means
+// define means define() function can be used to load the modules. Module means object, function, class or a code.
 
 // 5. console.log("%c   What is pseudocoding and why should you do it?   ", "color: blue");
 // Pseudocoding is means informal way of writing programs (algorithm) without using any code, just in simple language and breaking it down into smaller chunks. It helps in understanding the code by anyone like BA, Manager, Client. It also makes it easier to understand and bugging.
@@ -48,10 +48,11 @@
 // console.log("%c   String   ", "color: blue");
 // var firstVariable = "Hello World";
 // var firstVariable = 4;
-// var secondVariable = var firstVariable;
+// var secondVariable = firstVariable;
 // var secondVariable = ["A", 4];
+// console.log(`${firstVariable}`);// It's the latest assign value that is 4 in this case.
 
-// let yourName = ["bhagwatiNagarkoti"];
+// let yourName = ["in_bn"];
 // console.log("Hello, my name is " + yourName);
 
 // C. Booleans
@@ -65,7 +66,7 @@
 //   console.log(a < b);
 //   console.log(c > d);
 //   console.log(e === 'Kevin');
-// //   // FOR THE NEXT TWO, USE ONLY && OR ||
+//   // FOR THE NEXT TWO, USE ONLY && OR ||
 //   console.log(true != false);
 //   console.log(false != false != false != false != false != true);
 //   console.log(false == false)
@@ -86,37 +87,37 @@
 
 // E. Driver's Ed
 // console.log("%c          Driver's Ed   ", "color: blue");
-// var animal = "cow";
 
-// var age = 15;
+
+// var age = Math.floor(Math.random() * 100);
+// console.log(`Age of the person is ${age}`)
 // if (age >= 16) {
 //   console.log("Here are the keys!");
 // } else {
 //   console.log("Sorry, you're too young");
 // }
 
-//_____________________________________________________________
+// _____________________________________________________________
 
 // II. Loops
-//console.log("%c          1. Loops: The Basic      ", color:"blue");
-// let num =0;
-// // string =""
-// for (let i = 0; i <= 10; i++){
-//     console.log(num);
-//     num++;
+// console.log("%c          1. Loops: The Basic      ", "color:blue");
+
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(`${i}`);
+// }
 
 // };
 
-//console.log("%c         2. Loops      ", color:"blue");
+// console.log("%c         2. Loops      ", "color:blue");
 
-// let num10 =10 ;
+
 
 // for (let i = 10; i <= 400; i++){
-//     console.log(`${num10}`);
-//     num10++;
+//     console.log(`${i}`); 
 // }
 
-//console.log("%c         3. Loops       ", color:"blue");
+// console.log("%c         3. Loops       ", "color:blue");
 
 // let num12 = 12;
 
@@ -128,33 +129,32 @@
 //     };
 // }
 
-//console.log("%c         B.Get Even       ", color:"blue");
+// console.log("%c         B.Get Even       ", "color:blue");
 
-// let a = 0;
+
 
 // for (i = 0; i <= 100; i++){
-//     if (a % 2 == 0) {
-//         console.log(`${a} <-- is an even number`);
+//     if (i % 2 == 0) {
+//         console.log(`${i} <-- is an even number`);
 //     } else{
-//         console.log(`${a}`);
+//         console.log(`${i}`);
 //     }
-//     a++;
 // }
 
-//console.log("%c         C. Give me Five       ", color:"blue");
+//console.log("%c         C. Give me Five       ", "color:blue");
 
 // let num = 0;
 
 // for (let i = 0; i <= 100; i++){
-//     let found = 'n'
+//     let found = true
 //     if (num % 3 == 0 && num % 5 == 0) {
 //         console.log(`I found a ${num}. High Five! Three is a crowd`)
-//        found = 'y'
+//        found = false
 //     }
-//     else if (num % 5 == 0 && found == 'n') {
+//     else if (num % 5 == 0 && found == true) {
 //     console.log(`I found a ${num}. High Five!`)
 //     }
-//     else if(num % 3 == 0 && found=='n') {
+//     else if(num % 3 == 0 && found==true) {
 //         console.log(`I found a ${num}. Three is a crowd.`)
 //     }
 
@@ -374,12 +374,25 @@
 // const biggestNumber = maxOfThree(a, b, c);
 // console.log(`${biggestNumber} is the biggest of all the three numbers`);
 
-// H.
+// // H.
+// const arrayLong = ["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"];
+
+// let string = "";
+// let max = 0;
 
 // function printLongestWord(longestArray) {
-
+   
+//     for (let i = 0; i < longestArray.length; i++){
+//         if (max < longestArray[i].length) {
+//             string = longestArray[i];
+//             max = longestArray[i].length;
+//         }
+    
+//     } return string;
 // }
 
+// const newMax = printLongestWord(arrayLong);
+// console.log(`${max}`)
 //_____________________________________________________________
 
 // V. Objects
@@ -432,7 +445,7 @@ user.friend.purchased.push("A latte");
 console.log(`${user.friend.purchased[1]}`)
 
 //F 1.
-// string = "";
+
 
 string=" "
 
@@ -469,11 +482,19 @@ const x = updateUser(user.age, user.name4);
 
 console.log(`${user.age}  ${user.name4}`)
 
-// G 2.
+// // G 2.
 
-function oldAndLoud(person) {
-    person.age++;
-    person.name = person.name.toUpperCase();
-    } 
-const y = oldAndLoud(user);
-console.log(`${person.age}`);
+// function oldAndLoud(person) {
+//     person.age++;
+//     person.name4 = person.name4.toUpperCase();
+//     } 
+// const y = oldAndLoud(user);
+
+// console.log(`${person.name}  and ${person.age}`)
+
+
+
+
+
+
+

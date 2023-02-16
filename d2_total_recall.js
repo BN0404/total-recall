@@ -1,7 +1,6 @@
-// console.log()
-
 ////////////////////////////////
 // Easy Going
+console.log("%c   Easy Going   ", "color:blue");
 
 // let a = 1;
 // for (let i = 0; i < 20; i++){
@@ -14,6 +13,7 @@
 
 ////////////////////////////////
 // Get Even
+console.log("%c   Get Even   ", "color:blue");
 ////////////////////////////////
 // let a = 0;
 // for (let i = 0; i <= 200; i++){
@@ -25,6 +25,7 @@
 
 ////////////////////////////////
 // Fizz Buzz
+console.log("%c   Fizz Buzz    ", "color:blue");
 ////////////////////////////////
 // let n = 1;
 // for (i = 1; i < 100; i++) {
@@ -43,6 +44,7 @@
 
 ////////////////////////////////
 // Wild Wild Life
+console.log("%c   Wild Wild Life    ", "color:blue");
 ////////////////////////////////
 
 
@@ -55,7 +57,7 @@
 // plantee[2] = "5001";
 // console.log(`${plantee}`);
 
-// // wolfy[3] = "Gotham City";
+
 // wolfy.splice(3, 1, "Gotham City");
 // console.log(`${wolfy}`)
 
@@ -65,9 +67,10 @@
 // wolfy[0] = "Gameboy";
 // console.log(`${wolfy}`);
 
-////////////////////////////////
+//////////////////////////////
 // Yell at the Ninja Turtles
-////////////////////////////////
+console.log("%c   Yell at the Ninja Turtles    ", "color:blue");
+//////////////////////////////
 // const ninjaTurtle = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
 // string = " ";
@@ -80,36 +83,38 @@
 
 ////////////////////////////////
 // Methods, Revisited
+console.log("%c   Methods, Revisited    ", "color:blue");
 ////////////////////////////////
 const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
-console.log(`${favMovies.indexOf('Titanic')}`);
-favMovies.pop()
+// console.log(`${favMovies.indexOf('Titanic')}`);
+// favMovies.pop()
 
-favMovies.push("Guardians of the Galaxy");
+// favMovies.push("Guardians of the Galaxy");
 
-favMovies.reverse();
+// favMovies.reverse();
 
-// // console.log(`${favMovies}`);
-favMovies.shift();
-console.log(`${favMovies}`);
+// console.log(`${favMovies}`);
+// favMovies.shift();
+// console.log(`${favMovies}`);
 
 
-favMovies.splice(14, 1, "Avatar");
-console.log(`${favMovies}`);
+// favMovies.splice(14, 1, "Avatar");
+// console.log(`${favMovies}`);
 
-console.log(favMovies.length);
+// console.log(favMovies.length);
 
-console.log(Math.ceil(favMovies.length / 2));
+// console.log(Math.ceil(favMovies.length / 2));
 
-let slicedArray = favMovies.slice(0,9);
-console.log(`${favMovies}`);
+// let slicedArray = favMovies.slice(0,9);
+// console.log(`${favMovies}`);
 
-console.log(`${slicedArray.indexOf("Fast and Furious")});
+// console.log(`${slicedArray.indexOf('Fast and Furious')}`);
 
 
 ////////////////////////////////
 // Where is Waldo
+console.log("%c   Where is Waldo    ", "color:blue")
 ////////////////////////////////
 // const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 //                     ["Lucinda", "Jacc", "Neff", "Snoop"],
@@ -123,36 +128,34 @@ console.log(`${slicedArray.indexOf("Fast and Furious")});
 // console.log(`${whereIsWaldo}`);
 
 // Excited Kitten
+console.log("%c   Excited Kitten    ", "color:blue")
 ////////////////////////////////
 
 
 
 
-// let cat = 1;
-// let randomNum =0;
+let cat = 1;
+let randomNum =0;
 
-// const kittyTalk= ["human...why you taking pictures of me?", "the catnip made me do it", "why does the red dot always get away..." ]
-// for (i = 0; i <= 19; i++) {
+const kittyTalk= ["human...why you taking pictures of me?", "the catnip made me do it", "why does the red dot always get away..." ]
+for (i = 0; i <= 19; i++) {
 
-//     randomNum = Math.ceil(Math.random() * 2);
-//     cat = cat + 1;
-//     console.log(`Love me, pet me! HSSSSSS!`);
-//      if (cat % 2 == 0) {
-//         console.log(`${kittyTalk[randomNum]}`);
-//     }
-// }
+    randomNum = Math.ceil(Math.random() * 2);
+    cat = cat + 1;
+    console.log(`Love me, pet me! HSSSSSS!`);
+     if (cat % 2 == 0) {
+        console.log(`${kittyTalk[randomNum]}`);
+    }
+}
 
 
 ////////////////////////////////
-//  Find the Median
+ console.log("%c   Find the Median    ", "color:blue")
 ////////////////////////////////
-// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
-// let sort = nums.sort();
-// let a = Math.floor(nums.length / 2);
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+let sort = nums.sort();
+let a = Math.floor(nums.length / 2);
 
-// console.log(`Median of nums is : ${nums[12]}`);
-
-
-
+console.log(`Median of nums is : ${nums[12]}`);
 
 
