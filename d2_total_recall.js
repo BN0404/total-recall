@@ -1,6 +1,6 @@
 ////////////////////////////////
 // Easy Going
-console.log("%c   Easy Going   ", "color:blue");
+// console.log("%c   Easy Going   ", "color:blue");
 
 // let a = 1;
 // for (let i = 0; i < 20; i++){
@@ -13,7 +13,7 @@ console.log("%c   Easy Going   ", "color:blue");
 
 ////////////////////////////////
 // Get Even
-console.log("%c   Get Even   ", "color:blue");
+// console.log("%c   Get Even   ", "color:blue");
 ////////////////////////////////
 // let a = 0;
 // for (let i = 0; i <= 200; i++){
@@ -25,7 +25,7 @@ console.log("%c   Get Even   ", "color:blue");
 
 ////////////////////////////////
 // Fizz Buzz
-console.log("%c   Fizz Buzz    ", "color:blue");
+// console.log("%c   Fizz Buzz    ", "color:blue");
 ////////////////////////////////
 // let n = 1;
 // for (i = 1; i < 100; i++) {
@@ -44,7 +44,7 @@ console.log("%c   Fizz Buzz    ", "color:blue");
 
 ////////////////////////////////
 // Wild Wild Life
-console.log("%c   Wild Wild Life    ", "color:blue");
+// console.log("%c   Wild Wild Life    ", "color:blue");
 ////////////////////////////////
 
 
@@ -69,7 +69,7 @@ console.log("%c   Wild Wild Life    ", "color:blue");
 
 //////////////////////////////
 // Yell at the Ninja Turtles
-console.log("%c   Yell at the Ninja Turtles    ", "color:blue");
+// console.log("%c   Yell at the Ninja Turtles    ", "color:blue");
 //////////////////////////////
 // const ninjaTurtle = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
@@ -83,9 +83,9 @@ console.log("%c   Yell at the Ninja Turtles    ", "color:blue");
 
 ////////////////////////////////
 // Methods, Revisited
-console.log("%c   Methods, Revisited    ", "color:blue");
+// console.log("%c   Methods, Revisited    ", "color:blue");
 ////////////////////////////////
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
 // console.log(`${favMovies.indexOf('Titanic')}`);
 // favMovies.pop()
@@ -114,7 +114,7 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 
 ////////////////////////////////
 // Where is Waldo
-console.log("%c   Where is Waldo    ", "color:blue")
+// console.log("%c   Where is Waldo    ", "color:blue")
 ////////////////////////////////
 // const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 //                     ["Lucinda", "Jacc", "Neff", "Snoop"],
@@ -128,7 +128,7 @@ console.log("%c   Where is Waldo    ", "color:blue")
 // console.log(`${whereIsWaldo}`);
 
 // Excited Kitten
-console.log("%c   Excited Kitten    ", "color:blue")
+// console.log("%c   Excited Kitten    ", "color:blue")
 ////////////////////////////////
 
 
