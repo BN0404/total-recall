@@ -470,7 +470,7 @@ for (i = 0; i <= 1; i++) {
 console.log(`${string}`);
 
 
-// // G 1.
+// G 1.
 
 console.log("%cG1 Function     ", "color:blue");
 function updateUser() {
@@ -483,23 +483,24 @@ const x = updateUser(user.age, user.name4);
 
 console.log(`${user.age}  ${user.name4}`)
 
-// // // G 2.
+// G 2.
 
 console.log("%cG2 Function     ", "color:blue");
 
 function oldAndLoud(person) {
 
-    person.age = user.age++;
-    person.name4 = user.name4.toUpperCase();
-
+    person.age++;
+    person.name4.toUpperCase();
+    return person
     } 
 
 const y = oldAndLoud(user);
 
-// console.log(`${person.name4}  and ${person.age}`)
-console.log(oldAndLoud());
+console.log(y);
 
+// const oldAndLoud = (person) => {
 
+// }
 
 
 

@@ -55,12 +55,110 @@ class Person {
       this.mood--
       this.bankAccount+=10
     }
+
     buyHamster(hamster){
-      this.hamsters.push(hamster)
+    
       this.mood+=10
-      this.bankAccount-=hamster.getPrice()
+        this.bankAccount -= hamster.getPrice()
+        this.hamsters.push(hamster)
     }
 }
-  
+ 
+
+
+// _________________________________________________________________________
+
+console.log("%c    Hamster    ", "color:blue")
+
+
+const timmy = new Person('Timmy')
+// for (let i = 0; i < 5; i++){
+//     timmy.ageUp()
+// }
+// console.log(`${timmy.age}`)
+
+
+// for (let i = 0; i < 5; i++){
+//     timmy.eat();
+// }
+// console.log(timmy);
+
+
+// for (let i = 0; i < 5; i++){
+//     timmy.exercise();
+
+// }
+// console.log(timmy);
+
+// for (let i = 0; i < 9; i++){
+//     timmy.ageUp();
+// }
+// console.log(timmy);
+
+
+// const gus = new Hamster('Gus')
+// gus.owner = 'Timmy'
+// timmy.buyHamster(gus)
+// console.log(timmy)
+
+
+
+// for (let i = 0; i < 15; i++){
+//     timmy.ageUp();
+// }
+// console.log(`${timmy.age}`)
+
+
+// for (let i = 0; i < 2; i++){
+//     timmy.eat();
+ 
+// }
+// console.log(timmy)
+
+
+// for (let i = 0; i < 2; i++){
+//     timmy.exercise();
+
+// }
+// console.log(timmy)
+
+
+
+console.log("%c Chef Make Dinners","color:blue")
+
+
+
+class Dinner {
+    constructor(appetizer, entree, dessert) {
+        
+        this.appetizer = appetizer;
+        this.entree = entree; 
+        this.dessert = dessert;
+    }
+    
+
+}
+
+class Chef{
+    dinners = [];
+    dinnerChoices(appetizer, entree, dessert) {
+        let dinner = new Dinner(appetizer, entree, dessert)
+        // return new Dinner(appetizer, entree, dessert);
+        this.dinners.push(dinner);
+    }
+    
+}
+ 
+
+
+const chef1 = new Chef();
+
+chef1.dinnerChoices("soup", "grilledChicken", "fudge");
+chef1.dinnerChoices("fa", "b", "c");
+chef1.dinnerChoices("A", "b", "t");
+
+console.log(chef1.dinners);
+
+
 
 
