@@ -16,12 +16,12 @@
 // Get Even
 // console.log("%c   Get Even   ", "color:blue");
 ////////////////////////////////
-// let a = 0;
-// for (let i = 0; i <= 200; i++){
-//     if (a % 2 == 0) {
-//         console.log(`${a} is an even number.`);
-//     } a++;
-// }
+
+for (let i = 0; i <= 200; i++){
+    if (i % 2 == 0) {
+        console.log(`${i} is an even number.`);
+    } 
+}
 
 
 ////////////////////////////////
